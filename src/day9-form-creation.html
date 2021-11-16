@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 9 - Form creation</title>
+</head>
+<body>
+    <h1>User Registration form</h1>
+    <hr>
+    <form>
+        <div>
+            <label>Full Name: </label> <input type="text">
+        </div><br> <!-- To divide layouts -->
+        <div>
+            <label>User Name: </label> <input type="text">
+        </div><br>
+        <div>
+            <label>Password: </label> <input type="password">
+        </div><br>
+        <div>
+            <label>Gender: </label> <input type="radio" value="male" id="idMale" name="gender">
+            <label for="idMale">Male</label> 
+            <input type="radio" value="female" id="idFemale" name="gender">
+            <label for="idFemale">Female</label>
+        </div><br>
+        <div>
+            <label>Email: </label> <input type="email">
+        </div><br>
+        <div>
+            <label>Phone: </label> <input type="number">
+        </div><br>
+        <div>
+            <label>Country: </label> 
+            <select>
+                <option>Select Country</option>
+                <option value="india">India</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="checkbox" id="agree"> 
+            <label for="agree">I agree terms and conditions</label>
+        </div><br>
+        <div>
+            <input type="button" value="Singup"> <input type="reset" value="Clear">
+        </div><br>
+    </form>
+</body>
+
+</html>
