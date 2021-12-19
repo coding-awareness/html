@@ -1,70 +1,139 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>HTML Tutorials - Basic steps to create web pages</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        .container {
+            overflow: hidden;
+        }
+        .container::after {
+            clear: both;
+        }
+        .topic-table {
+            float: left;
+            width: 50%;
+        }
+        .follow-us {
+            margin-left: 50px;
+            float: left;
+            width: 40%;
+        }
+        
+    </style>
 </head>
 
 <body>
     <h1>Basic HTML Tutorials</h1>
     <hr>
-    <h3>HTML Topics - Examples Day wise</h3>
-    <ol>
-        <li>
-            <a href="src/day1-html-structure.html">HTML Structure</a>
-        </li>
-        <li><a href="src/day2-basic-tags.html">Basic Tags</a></li>
-        <li><a href="src/day3-formatting-tags.html">Formatting Tags</a></li>
-        <li><a href="src/day4-html-attributes.html">HTML Attributes</a></li>
-        <li><a href="src/day5-html-list.html">HTML List</a></li>
-        <li><a href="src/day6-images-html.html">Images in HTML</a></li>
-        <li><a href="src/day7-link-web-pages.html">Link Web Pages</a></li>
-        <li><a href="src/day8-table-creation.html">Table Creation</a></li>
-        <li><a href="src/day9-form-creation.html">Signup Form Creation</a></li>
-        <li><a href="src/day10-browser-developer-tools.html">Browser Developer Tools</a></li>
-        <li><a href="src/day12-style-html.html">Style in HTML</a></li>
-    </ol>
+    <div class="container">
+        <table class="topic-table">
+            <thead>
+                <tr>
+                    <th>S. No</th>
+                    <th>Topics with Output</th>
+                    <th>YouTube</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td><a href="src/day1-html-structure.html">HTML Structure</a></td>
+                    <td><a href="https://youtu.be/XKkvWD0qpqc" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td><a href="src/day2-basic-tags.html">Basic Tags</a></td>
+                    <td><a href="https://youtu.be/z9SJh11yaL0" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td><a href="src/day3-formatting-tags.html">Formatting Tags</a></td>
+                    <td><a href="https://youtu.be/xhdJ2g6cGPc" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td><a href="src/day4-html-attributes.html">HTML Attributes</a></td>
+                    <td><a href="https://youtu.be/A6SMXGuD6YA" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td><a href="src/day5-html-list.html">HTML List</a></td>
+                    <td><a href="https://youtu.be/QfdgdGxcyGc" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td><a href="src/day6-images-html.html">Images in HTML</a></td>
+                    <td><a href="https://youtu.be/l2TagOvlyrA" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td><a href="src/day7-link-web-pages.html">Link Web Pages</a></td>
+                    <td><a href="https://youtu.be/br0dHC3qb-E" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td><a href="src/day8-table-creation.html">Table Creation</a></td>
+                    <td><a href="https://youtu.be/En_iQHF4OMk" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td><a href="src/day9-form-creation.html">Signup Form Creation</a></td>
+                    <td><a href="https://youtu.be/wan5eRv056M" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td><a href="src/day10-browser-developer-tools.html">Browser Developer Tools</a></td>
+                    <td><a href="https://youtu.be/TrIp6UOoKgc" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>11.</td>
+                    <td><a href="src/day11-block-inline-elements.html">Block and Inline elements</a></td>
+                    <td><a href="https://youtu.be/rB3PeRkAqlE" target="_blank">Video</a></td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td><a href="src/day12-style-html.html">Style in HTML</a></td>
+                    <td><a href="https://youtu.be/Trsxzb8v_MQ" target="_blank">Video</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="follow-us">
+            <h2>Follow us on:</h2>
+            <ul>
+                <li>
+                    <h3><a href="https://www.facebook.com/QuiteEasyTech" target="_blank" title="Facebook">Facebook</a>
+                    </h3>
+                </li>
+                <li>
+                    <h3><a href="https://www.youtube.com/c/QuiteEasyTech" target="_blank" title="YouTube">YouTube</a>
+                    </h3>
+                </li>
+                <li>
+                    <h3><a href="https://www.instagram.com/quiteeasy.tech" target="_blank"
+                            title="Instagram">Instagram</a>
+                    </h3>
+                </li>
+                <li>
+                    <h3><a href="https://www.linkedin.com/company/quite-easy-tech" target="_blank"
+                            title="LinkedIn">LinkedIn</a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://twitter.com/QuiteEasyTech" target="_blank" title="Twitter">Twitter</a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://quite-easy-tech.blogspot.com" target="_blank" title="Blog">Blog</a></h3>
+                </li>
+            </ul>
+        </div>
+    </div>
     <hr>
-    <h3>HTML Video Examples (External link)</h3>
-    <ol>
-        <li>
-            <a href="https://youtu.be/XKkvWD0qpqc" target="_blank" >HTML Structure</a>
-        </li>
-        <li><a href="https://youtu.be/z9SJh11yaL0" target="_blank">Basic Tags</a></li>
-        <li><a href="https://youtu.be/xhdJ2g6cGPc" target="_blank">Formatting Tags</a></li>
-        <li><a href="https://youtu.be/A6SMXGuD6YA" target="_blank">HTML Attributes</a></li>
-        <li><a href="https://youtu.be/QfdgdGxcyGc" target="_blank">HTML List</a></li>
-        <li><a href="https://youtu.be/l2TagOvlyrA" target="_blank">Images in HTML</a></li>
-        <li><a href="https://youtu.be/br0dHC3qb-E" target="_blank">Link web pages</a></li>
-        <li><a href="https://youtu.be/En_iQHF4OMk" target="_blank">Table Creation</a></li>
-        <li><a href="https://youtu.be/wan5eRv056M" target="_blank">Signup Form Creation</a></li>
-        <li><a href="https://youtu.be/TrIp6UOoKgc" target="_blank">Browser Developer Tools</a></li>
-        <li><a href="https://youtu.be/rB3PeRkAqlE" target="_blank">Block and Inline elements</a></li>
-
-    </ol>
-    <hr>
-    <h3>Follow us on:</h3>
-    <ul>
-        <li>
-            <a href="https://www.facebook.com/QuiteEasyTech" 
-            target="_blank" title="Facebook">Facebook</a>
-        </li>
-        <li><a href="https://www.youtube.com/c/QuiteEasyTech" 
-            target="_blank" title="YouTube">YouTube</a>
-        </li>
-        <li><a href="https://www.instagram.com/quiteeasy.tech" 
-            target="_blank" title="Instagram">Instagram</a>
-        </li>
-        <li><a href="https://www.linkedin.com/company/quite-easy-tech" 
-            target="_blank" title="LinkedIn">LinkedIn</a>
-        </li>
-        <li><a href="https://twitter.com/QuiteEasyTech" 
-            target="_blank" title="Twitter">Twitter</a>
-        </li>
-        <li><a href="https://quite-easy-tech.blogspot.com" 
-            target="_blank" title="Blog">Blog</a>
-        </li>
-    </ul>
 </body>
 
 </html>
