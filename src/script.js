@@ -1,0 +1,3 @@
+function TypeText() {
+    alert("Thanks")
+}
