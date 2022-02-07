@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day 18 - HTML Canvas</title>
+    <script>
+        function drawCanvas() {
+            var canvasEle = document.getElementById('canvasElement');
+            if(canvasEle.getContext) {
+                var context2d = canvasEle.getContext('2d');
+                context2d.fillStyle = 'green';
+                context2d.fillRect(20, 30, 50, 50)
+
+                context2d.fillStyle = 'blue';
+                context2d.fillRect(30, 40, 60, 60)
+
+                context2d.strokeStyle = 'red';
+                context2d.strokeRect(150, 90, 60, 60)
+            }
+            
+            
+        }        
+    </script>
+</head>
+
+<body onload="drawCanvas()">
+    <h1>HTML Canvas | <a href="../index.html">Home</a></h1>
+    <hr>
+    <canvas id="canvasElement"></canvas>
+</body>
+
+</html>

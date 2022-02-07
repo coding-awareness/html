@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day 17 - HTML Events</title>
+    <script>
+       function windowEvent() {
+           alert("HTML Events")
+       }
+       function keypressEvent() {
+           console.log('Enter your name')
+       }
+       function clearValue() {
+           document.getElementById('userName').value = '';
+       }
+    </script>
+</head>
+
+<body onload="windowEvent()">
+    <h1>HTML Events | <a href="../index.html">Home</a></h1>
+    <hr>
+    <h3>Form Events</h3>
+    <form onsubmit="alert('Form submitted');return false">
+        Name: <input type="text" onkeypress="keypressEvent()" id="userName">
+        <input type="button" value="Clear" onclick="clearValue()">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
